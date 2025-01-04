@@ -492,3 +492,7 @@ end
     @test collect(s1) == collect(s2)
   end
 end
+
+@testitem "LowDiscrepancySampling" setup = [Setup] begin
+  @test 1 == 1
+end
