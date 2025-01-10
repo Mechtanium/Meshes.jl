@@ -494,5 +494,7 @@ end
 end
 
 @testitem "LowDiscrepancySampling" setup = [Setup] begin
+  mesh = readply(T, joinpath(datadir, "beethoven.ply"))
+  mesh |> viz
   @test 1 == 1
 end
